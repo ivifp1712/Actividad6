@@ -37,7 +37,7 @@ Funcion salario(salarioBrutof, tipoContrato, edad, paga)
 		Fin Si
 	Fin Si
 	//añadimos la bonificacion al neto anual y calculamos el neto mensual
-	salarioNeto<- ((salarioNeto * paga1) + boni) / paga1
+	salarioNeto<- ((salarioNeto * paga1) + boni) / 12
 	//escribimos todos los datos en consola
 	Escribir "Salario bruto: ", salarioBruto
 	Escribir "tipo de cotización ", tipoCotizacion 

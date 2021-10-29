@@ -36,14 +36,14 @@ Funcion salario(salarioBrutof, tipoContrato, edad, paga)
 			FinSi
 		Fin Si
 	Fin Si
-	//añadimos la bonificacion al neto anual y calculamos el neto mensual
+	//aÃ±adimos la bonificacion al neto anual y calculamos el neto mensual
 	salarioNeto<- ((salarioNeto * paga1) + boni) / paga1
 	//escribimos todos los datos en consola
 	Escribir "Salario bruto: ", salarioBruto
-	Escribir "tipo de cotización ", tipoCotizacion 
+	Escribir "tipo de cotizaciÃ³n ", tipoCotizacion 
 	Escribir "tipo de IRPF ", tipoIRPF
-	Escribir "tipo de bonificacion ", boni
-	Escribir "Líquido a percibir mensual ", salarioNeto
+	Escribir "BonificaciÃ³n de ", boni
+	Escribir "LÃ­quido a percibir mensual ", salarioNeto
 FinFuncion
 
 //---------------------------------------------------------------//
